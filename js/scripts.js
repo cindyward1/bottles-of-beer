@@ -6,7 +6,7 @@ var bottlesOfBeer = function(numberBottles, originalNumber) {
   switch(numberBottles) {
     case 1:
       bottles = "bottle";
-      bottlesMinusOne = "No more bottles";
+      bottlesMinusOne = "no more bottles";
       break;
     case 2:
       bottlesMinusOne = "1 bottle";
