@@ -17,6 +17,9 @@ var bottlesOfBeer = function(numberBottles, originalNumber) {
   if (numberBottles > 0) {
     sentence = "<li>" + numberBottles + " " + bottles + " of beer on the wall, " + numberBottles + " " + bottles + " of beer. Take one down and pass it around, " + bottlesMinusOne + " of beer on the wall.</li>" + (bottlesOfBeer((numberBottles - 1), originalNumber));
   } else {
+    if (originalNumber == 1) {
+      bottles = "bottle";
+    }
     sentence = "<li>No more bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more, " + originalNumber + " " + bottles + " of beer on the wall.</li>"
   };
   return sentence;
