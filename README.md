@@ -7,7 +7,7 @@
 
 ## Synopsis
 
-By opening an HTML file in a browser window, the user is able to input a number of bottles and have the computer respond with the lyrics to the song _99 Bottles of Beer on the Wall_, using the input number instead of 99. 
+By opening an HTML file in a browser window, the user is able to input a number of bottles and have the computer respond with the lyrics to the song _99 Bottles of Beer on the Wall_, using the input number instead of the traditional number 99. 
 
 ## Included Files
 
@@ -34,7 +34,7 @@ By opening an HTML file in a browser window, the user is able to input a number 
 
 The _git_ software must be installed; installation instructions can be found [here](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-_git clone_ the image available at http://github.com/cindyward1/bottles-of-beer, which will create a bottles-of-beer directory with cs, js, and spec directories.
+_git clone_ the image available at http://github.com/cindyward1/bottles-of-beer.git, which will create a bottles-of-beer directory with cs, images, js, and spec directories.
 
 To execute the software, open the file (clone location)/bottles-of-beer/bottles-of-beer.html in a browser window. 
 
