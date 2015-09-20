@@ -21,9 +21,11 @@ By opening an HTML file in a browser window, the user is able to input a number 
 * ./spec/spec_runner.html (utility code for using the Chai and Mocha testing packages)
 * ./spec/specs.js (Testing specifications for the project)
 
-### Copied into project to allow execution and testing
+### Copied into project to allow proper execution and testing
 
 * ./css/bootstrap.min.css (Bootstrap CSS styles)
+* ./images/beer-bottle.jpg (photo of beer bottle from www.midwestsupplies.com)
+* ./images/beer-bottles-on-wall.jpg (photo of wall of beer bottles from www.redbubble.com)
 * ./js/jquery-1.11.3.min.js (jQuery is a library that specifies how to traverse HTML documents, handle events, perform animations, and AJAX)
 * ./spec/chai.js (Chai is a BDD/TDD assertion library used with a browser)
 * ./spec/mocha.js (Mocha is a test framework used with a browser)
