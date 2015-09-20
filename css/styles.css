@@ -1,3 +1,15 @@
 #result {
   display: none;
 }
+
+h2 {
+  margin-bottom: 20px !important;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 5px;
+}

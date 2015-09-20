@@ -24,3 +24,14 @@ var bottlesOfBeer = function(numberBottles, originalNumber) {
   };
   return sentence;
 };
+
+$(document).ready(function() {
+  $("form#bottles-of-beer").submit(function(event) {
+    var number = parseInt($("input#number").val());
+    var lyrics = bottlesOfBeer(number, number);
+    $("ul#lyrics").children().remove();
+    $("ul#lyrics").append(lyrics);
+    $("#result").show();
+    event.preventDefault();
+  });
+});
