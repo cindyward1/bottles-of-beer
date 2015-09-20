@@ -38,7 +38,7 @@ To execute the software, open the file (clone location)/bottles-of-beer/bottles-
 
 You can also test a non-interactive version of the methods against their test cases found in (clone location)/bottles-of-beer/spec/specs.js using opening the file (clone location)/bottles-of-beer/spec/spec-runner-html in a browser window.
 
-Please note that this repository has only been tested with Mozilla Firefox version 4.0.3 on a MacBook running Apple OS X version 10.9.5 (Mavericks). Execution on any other computing platform, browser, or operating system is at the user's risk.
+Please note that this repository has only been tested with the Google Chrome browser version 45.0.2454.93 (64-bit) on a MacBook running Apple OS X version 10.9.5 (Mavericks). Execution on any other computing platform, browser, or operating system is at the user's risk.
 
 ## Licensing
 
